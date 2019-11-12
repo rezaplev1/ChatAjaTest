@@ -3,18 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AE0F3F31FE28039CE9BD453 /* Pods_ChatAjaTest_ChatAjaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E72D395D378D4895F804775 /* Pods_ChatAjaTest_ChatAjaTestUITests.framework */; };
+		2329C8192375E197007C4148 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2329C8172375E197007C4148 /* HomeViewController.swift */; };
+		2329C81A2375E197007C4148 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2329C8182375E197007C4148 /* LoginViewController.swift */; };
+		2329C81C2375E7BC007C4148 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2329C81B2375E7BC007C4148 /* LoginViewModel.swift */; };
+		2329C81E2375E7C9007C4148 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2329C81D2375E7C9007C4148 /* HomeViewModel.swift */; };
+		23DBDEDF23791B7700339AD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23DBDEDE23791B7700339AD7 /* GoogleService-Info.plist */; };
+		23DBDEE22379319B00339AD7 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEE12379319B00339AD7 /* UserManager.swift */; };
+		23DBDEE523796C8C00339AD7 /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEE423796C8C00339AD7 /* ChannelTableViewCell.swift */; };
+		23DBDEE723796DC400339AD7 /* EmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEE623796DC400339AD7 /* EmptyTableViewCell.swift */; };
+		23DBDEEA23796F5B00339AD7 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEE923796F5B00339AD7 /* Chat.swift */; };
+		23DBDEEC2379706F00339AD7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEEB2379706F00339AD7 /* Message.swift */; };
+		23DBDEF02379981B00339AD7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEEF2379981B00339AD7 /* UserModel.swift */; };
+		23DBDEF52379EB2900339AD7 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEF42379EB2900339AD7 /* DateHelper.swift */; };
+		23DBDEF72379F87700339AD7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEF62379F87700339AD7 /* ChatViewController.swift */; };
+		23DBDEF92379F89400339AD7 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEF82379F89400339AD7 /* ChatViewModel.swift */; };
+		23DBDEFB237A2C4D00339AD7 /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DBDEFA237A2C4D00339AD7 /* DatabaseRepresentation.swift */; };
 		23F2929D2375649900928F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2929C2375649900928F38 /* AppDelegate.swift */; };
 		23F2929F2375649900928F38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2929E2375649900928F38 /* SceneDelegate.swift */; };
-		23F292A12375649900928F38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292A02375649900928F38 /* ViewController.swift */; };
 		23F292A42375649900928F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F292A22375649900928F38 /* Main.storyboard */; };
 		23F292A62375649A00928F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F292A52375649A00928F38 /* Assets.xcassets */; };
 		23F292A92375649A00928F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F292A72375649A00928F38 /* LaunchScreen.storyboard */; };
 		23F292B42375649A00928F38 /* ChatAjaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292B32375649A00928F38 /* ChatAjaTestTests.swift */; };
 		23F292BF2375649A00928F38 /* ChatAjaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292BE2375649A00928F38 /* ChatAjaTestUITests.swift */; };
+		23F292D62375DF3800928F38 /* UIViewController+PopupAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292CE2375DF3800928F38 /* UIViewController+PopupAlert.swift */; };
+		23F292D72375DF3800928F38 /* UINavigationController+PushPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292CF2375DF3800928F38 /* UINavigationController+PushPop.swift */; };
+		23F292D82375DF3800928F38 /* AppDelegate+RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292D02375DF3800928F38 /* AppDelegate+RootVC.swift */; };
+		23F292D92375DF3800928F38 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292D12375DF3800928F38 /* UIColor+RGB.swift */; };
+		23F292DA2375DF3800928F38 /* DefaultKeysExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292D22375DF3800928F38 /* DefaultKeysExtension.swift */; };
+		23F292DB2375DF3800928F38 /* UIViewController+LoadingHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292D32375DF3800928F38 /* UIViewController+LoadingHud.swift */; };
+		23F292DC2375DF3800928F38 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F292D52375DF3800928F38 /* Constant.swift */; };
+		96C66648CB19673D6650C742 /* Pods_ChatAjaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CEB359520AD7D1B985C1D9 /* Pods_ChatAjaTest.framework */; };
+		BC895CE16F3C648E5475A26B /* Pods_ChatAjaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D9AB8D9192FDB46938224D /* Pods_ChatAjaTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +59,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107CE85E010645DAC1110580 /* Pods-ChatAjaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAjaTestTests.release.xcconfig"; path = "Target Support Files/Pods-ChatAjaTestTests/Pods-ChatAjaTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		2329C8172375E197007C4148 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2329C8182375E197007C4148 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2329C81B2375E7BC007C4148 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2329C81D2375E7C9007C4148 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		23DBDEDE23791B7700339AD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23DBDEE12379319B00339AD7 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		23DBDEE423796C8C00339AD7 /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		23DBDEE623796DC400339AD7 /* EmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableViewCell.swift; sourceTree = "<group>"; };
+		23DBDEE923796F5B00339AD7 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		23DBDEEB2379706F00339AD7 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		23DBDEEF2379981B00339AD7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		23DBDEF42379EB2900339AD7 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		23DBDEF62379F87700339AD7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		23DBDEF82379F89400339AD7 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		23DBDEFA237A2C4D00339AD7 /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
 		23F292992375649900928F38 /* ChatAjaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAjaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F2929C2375649900928F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23F2929E2375649900928F38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23F292A02375649900928F38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23F292A32375649900928F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23F292A52375649A00928F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23F292A82375649A00928F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +88,21 @@
 		23F292BA2375649A00928F38 /* ChatAjaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAjaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F292BE2375649A00928F38 /* ChatAjaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAjaTestUITests.swift; sourceTree = "<group>"; };
 		23F292C02375649A00928F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F292CE2375DF3800928F38 /* UIViewController+PopupAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PopupAlert.swift"; sourceTree = "<group>"; };
+		23F292CF2375DF3800928F38 /* UINavigationController+PushPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+PushPop.swift"; sourceTree = "<group>"; };
+		23F292D02375DF3800928F38 /* AppDelegate+RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+RootVC.swift"; sourceTree = "<group>"; };
+		23F292D12375DF3800928F38 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		23F292D22375DF3800928F38 /* DefaultKeysExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeysExtension.swift; sourceTree = "<group>"; };
+		23F292D32375DF3800928F38 /* UIViewController+LoadingHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+LoadingHud.swift"; sourceTree = "<group>"; };
+		23F292D52375DF3800928F38 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3952DA771E3A9220E096E601 /* Pods-ChatAjaTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAjaTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ChatAjaTestTests/Pods-ChatAjaTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D5BF66558DFFFEE1BECD0BC /* Pods-ChatAjaTest-ChatAjaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAjaTest-ChatAjaTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ChatAjaTest-ChatAjaTestUITests/Pods-ChatAjaTest-ChatAjaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66D9AB8D9192FDB46938224D /* Pods_ChatAjaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatAjaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		774AB21BB3555152748230E0 /* Pods-ChatAjaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAjaTest.release.xcconfig"; path = "Target Support Files/Pods-ChatAjaTest/Pods-ChatAjaTest.release.xcconfig"; sourceTree = "<group>"; };
+		9E72D395D378D4895F804775 /* Pods_ChatAjaTest_ChatAjaTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatAjaTest_ChatAjaTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CEB359520AD7D1B985C1D9 /* Pods_ChatAjaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatAjaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD1BFBB75E1F0828038A9A4 /* Pods-ChatAjaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAjaTest.debug.xcconfig"; path = "Target Support Files/Pods-ChatAjaTest/Pods-ChatAjaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F9379C76D56BDCCB6728D4A0 /* Pods-ChatAjaTest-ChatAjaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAjaTest-ChatAjaTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChatAjaTest-ChatAjaTestUITests/Pods-ChatAjaTest-ChatAjaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C66648CB19673D6650C742 /* Pods_ChatAjaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC895CE16F3C648E5475A26B /* Pods_ChatAjaTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +126,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE0F3F31FE28039CE9BD453 /* Pods_ChatAjaTest_ChatAjaTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2329C8162375E197007C4148 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2329C8172375E197007C4148 /* HomeViewController.swift */,
+				2329C8182375E197007C4148 /* LoginViewController.swift */,
+				23DBDEF62379F87700339AD7 /* ChatViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		23DBDEE02379318600339AD7 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				23DBDEE12379319B00339AD7 /* UserManager.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		23DBDEE323796C6E00339AD7 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				23DBDEE423796C8C00339AD7 /* ChannelTableViewCell.swift */,
+				23DBDEE623796DC400339AD7 /* EmptyTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		23DBDEE823796F4A00339AD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23DBDEE923796F5B00339AD7 /* Chat.swift */,
+				23DBDEEB2379706F00339AD7 /* Message.swift */,
+				23DBDEEF2379981B00339AD7 /* UserModel.swift */,
+				23DBDEFA237A2C4D00339AD7 /* DatabaseRepresentation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23DBDEF32379EB1C00339AD7 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				23DBDEF42379EB2900339AD7 /* DateHelper.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		23F292902375649900928F38 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +186,8 @@
 				23F292B22375649A00928F38 /* ChatAjaTestTests */,
 				23F292BD2375649A00928F38 /* ChatAjaTestUITests */,
 				23F2929A2375649900928F38 /* Products */,
+				6FDD814E1DD335BAA425B526 /* Pods */,
+				C3B4F4CDE1F7790AD7F959E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +204,14 @@
 		23F2929B2375649900928F38 /* ChatAjaTest */ = {
 			isa = PBXGroup;
 			children = (
+				23F292CC2375DF3800928F38 /* Classes */,
 				23F2929C2375649900928F38 /* AppDelegate.swift */,
 				23F2929E2375649900928F38 /* SceneDelegate.swift */,
-				23F292A02375649900928F38 /* ViewController.swift */,
 				23F292A22375649900928F38 /* Main.storyboard */,
 				23F292A52375649A00928F38 /* Assets.xcassets */,
 				23F292A72375649A00928F38 /* LaunchScreen.storyboard */,
 				23F292AA2375649A00928F38 /* Info.plist */,
+				23DBDEDE23791B7700339AD7 /* GoogleService-Info.plist */,
 			);
 			path = ChatAjaTest;
 			sourceTree = "<group>";
@@ -128,6 +234,91 @@
 			path = ChatAjaTestUITests;
 			sourceTree = "<group>";
 		};
+		23F292CC2375DF3800928F38 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23DBDEE823796F4A00339AD7 /* Models */,
+				23F292DF2375E00100928F38 /* ViewModels */,
+				23F292DE2375DFFB00928F38 /* Views */,
+				23F292DD2375DFD100928F38 /* Components */,
+				23F292CD2375DF3800928F38 /* Extension */,
+				23F292D42375DF3800928F38 /* Constant */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		23F292CD2375DF3800928F38 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				23F292CE2375DF3800928F38 /* UIViewController+PopupAlert.swift */,
+				23F292CF2375DF3800928F38 /* UINavigationController+PushPop.swift */,
+				23F292D02375DF3800928F38 /* AppDelegate+RootVC.swift */,
+				23F292D12375DF3800928F38 /* UIColor+RGB.swift */,
+				23F292D22375DF3800928F38 /* DefaultKeysExtension.swift */,
+				23F292D32375DF3800928F38 /* UIViewController+LoadingHud.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		23F292D42375DF3800928F38 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				23F292D52375DF3800928F38 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		23F292DD2375DFD100928F38 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				23DBDEF32379EB1C00339AD7 /* Date */,
+				23DBDEE02379318600339AD7 /* User */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		23F292DE2375DFFB00928F38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23DBDEE323796C6E00339AD7 /* TableViewCells */,
+				2329C8162375E197007C4148 /* ViewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23F292DF2375E00100928F38 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2329C81B2375E7BC007C4148 /* LoginViewModel.swift */,
+				2329C81D2375E7C9007C4148 /* HomeViewModel.swift */,
+				23DBDEF82379F89400339AD7 /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6FDD814E1DD335BAA425B526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1BFBB75E1F0828038A9A4 /* Pods-ChatAjaTest.debug.xcconfig */,
+				774AB21BB3555152748230E0 /* Pods-ChatAjaTest.release.xcconfig */,
+				F9379C76D56BDCCB6728D4A0 /* Pods-ChatAjaTest-ChatAjaTestUITests.debug.xcconfig */,
+				5D5BF66558DFFFEE1BECD0BC /* Pods-ChatAjaTest-ChatAjaTestUITests.release.xcconfig */,
+				3952DA771E3A9220E096E601 /* Pods-ChatAjaTestTests.debug.xcconfig */,
+				107CE85E010645DAC1110580 /* Pods-ChatAjaTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3B4F4CDE1F7790AD7F959E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7CEB359520AD7D1B985C1D9 /* Pods_ChatAjaTest.framework */,
+				9E72D395D378D4895F804775 /* Pods_ChatAjaTest_ChatAjaTestUITests.framework */,
+				66D9AB8D9192FDB46938224D /* Pods_ChatAjaTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23F292C32375649A00928F38 /* Build configuration list for PBXNativeTarget "ChatAjaTest" */;
 			buildPhases = (
+				041C1DA04A0EAD0421601FBD /* [CP] Check Pods Manifest.lock */,
 				23F292952375649900928F38 /* Sources */,
 				23F292962375649900928F38 /* Frameworks */,
 				23F292972375649900928F38 /* Resources */,
+				CB66CA07E8BE9189CA8DB7FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23F292C62375649A00928F38 /* Build configuration list for PBXNativeTarget "ChatAjaTestTests" */;
 			buildPhases = (
+				E0B601A4C519DC5A6E39C99A /* [CP] Check Pods Manifest.lock */,
 				23F292AB2375649A00928F38 /* Sources */,
 				23F292AC2375649A00928F38 /* Frameworks */,
 				23F292AD2375649A00928F38 /* Resources */,
@@ -170,9 +364,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23F292C92375649A00928F38 /* Build configuration list for PBXNativeTarget "ChatAjaTestUITests" */;
 			buildPhases = (
+				DAED47BE49694DBD1F359F73 /* [CP] Check Pods Manifest.lock */,
 				23F292B62375649A00928F38 /* Sources */,
 				23F292B72375649A00928F38 /* Frameworks */,
 				23F292B82375649A00928F38 /* Resources */,
+				227CF1389CE22F1EFCED3261 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F292A92375649A00928F38 /* LaunchScreen.storyboard in Resources */,
+				23DBDEDF23791B7700339AD7 /* GoogleService-Info.plist in Resources */,
 				23F292A62375649A00928F38 /* Assets.xcassets in Resources */,
 				23F292A42375649900928F38 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +451,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		041C1DA04A0EAD0421601FBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatAjaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		227CF1389CE22F1EFCED3261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatAjaTest-ChatAjaTestUITests/Pods-ChatAjaTest-ChatAjaTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatAjaTest-ChatAjaTestUITests/Pods-ChatAjaTest-ChatAjaTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatAjaTest-ChatAjaTestUITests/Pods-ChatAjaTest-ChatAjaTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB66CA07E8BE9189CA8DB7FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatAjaTest/Pods-ChatAjaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatAjaTest/Pods-ChatAjaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatAjaTest/Pods-ChatAjaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAED47BE49694DBD1F359F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatAjaTest-ChatAjaTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B601A4C519DC5A6E39C99A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatAjaTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23F292952375649900928F38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F292A12375649900928F38 /* ViewController.swift in Sources */,
+				23F292DA2375DF3800928F38 /* DefaultKeysExtension.swift in Sources */,
+				23F292DB2375DF3800928F38 /* UIViewController+LoadingHud.swift in Sources */,
+				23DBDEE22379319B00339AD7 /* UserManager.swift in Sources */,
+				23DBDEEC2379706F00339AD7 /* Message.swift in Sources */,
+				23F292DC2375DF3800928F38 /* Constant.swift in Sources */,
+				23DBDEF52379EB2900339AD7 /* DateHelper.swift in Sources */,
+				23DBDEEA23796F5B00339AD7 /* Chat.swift in Sources */,
 				23F2929D2375649900928F38 /* AppDelegate.swift in Sources */,
+				23DBDEE723796DC400339AD7 /* EmptyTableViewCell.swift in Sources */,
+				23DBDEE523796C8C00339AD7 /* ChannelTableViewCell.swift in Sources */,
+				23DBDEF72379F87700339AD7 /* ChatViewController.swift in Sources */,
+				23DBDEFB237A2C4D00339AD7 /* DatabaseRepresentation.swift in Sources */,
+				23F292D92375DF3800928F38 /* UIColor+RGB.swift in Sources */,
+				2329C8192375E197007C4148 /* HomeViewController.swift in Sources */,
+				23F292D82375DF3800928F38 /* AppDelegate+RootVC.swift in Sources */,
 				23F2929F2375649900928F38 /* SceneDelegate.swift in Sources */,
+				2329C81E2375E7C9007C4148 /* HomeViewModel.swift in Sources */,
+				2329C81C2375E7BC007C4148 /* LoginViewModel.swift in Sources */,
+				23F292D62375DF3800928F38 /* UIViewController+PopupAlert.swift in Sources */,
+				23F292D72375DF3800928F38 /* UINavigationController+PushPop.swift in Sources */,
+				2329C81A2375E197007C4148 /* LoginViewController.swift in Sources */,
+				23DBDEF92379F89400339AD7 /* ChatViewModel.swift in Sources */,
+				23DBDEF02379981B00339AD7 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +752,12 @@
 		};
 		23F292C42375649A00928F38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD1BFBB75E1F0828038A9A4 /* Pods-ChatAjaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChatAjaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +771,12 @@
 		};
 		23F292C52375649A00928F38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774AB21BB3555152748230E0 /* Pods-ChatAjaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChatAjaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +790,7 @@
 		};
 		23F292C72375649A00928F38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3952DA771E3A9220E096E601 /* Pods-ChatAjaTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +812,7 @@
 		};
 		23F292C82375649A00928F38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107CE85E010645DAC1110580 /* Pods-ChatAjaTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,8 +834,9 @@
 		};
 		23F292CA2375649A00928F38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9379C76D56BDCCB6728D4A0 /* Pods-ChatAjaTest-ChatAjaTestUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChatAjaTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -527,8 +854,9 @@
 		};
 		23F292CB2375649A00928F38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5BF66558DFFFEE1BECD0BC /* Pods-ChatAjaTest-ChatAjaTestUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChatAjaTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

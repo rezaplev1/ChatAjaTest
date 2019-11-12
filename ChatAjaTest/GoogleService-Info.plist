@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1005008843828-12fiidre4a0gvnl92trve1bjh4f1et2k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1005008843828-12fiidre4a0gvnl92trve1bjh4f1et2k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAtQEDaMHsFChzOarkupUQxH09lFboaaqk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1005008843828</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nizarnizar.ChatAjaTest</string>
+	<key>PROJECT_ID</key>
+	<string>chatajatest</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatajatest.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1005008843828:ios:f8281f93699313b8e60661</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatajatest.firebaseio.com</string>
+</dict>
+</plist>

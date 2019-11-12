@@ -1,0 +1,6 @@
+framework module Pods_ChatAjaTest {
+  umbrella header "Pods-ChatAjaTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
